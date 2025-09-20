@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://chats-frontend.onrender.com",  //"http://localhost:5173",
+    origin:"http://localhost:5173",  // "https://chats-frontend.onrender.com",
     credentials: true,
   })
 );
